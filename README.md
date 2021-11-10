@@ -13,7 +13,7 @@
  </h1>
 
 ### Site
-![Portfolio - Link]()
+![Portfolio - Link](https://camila-github.github.io/portfolio-camila/)
 
 ### Tecnologias utilizadas
 
@@ -29,9 +29,9 @@
 ### Demostração do site
 
 <p align="center">
-   <img src=""/>
+   <img src="https://github.com/camila-github/portfolio-camila/blob/main/docs/video-index.gif"/>
 </p>
 
 <p align="center">
-   <img src=""/>
+   <img src="https://github.com/camila-github/portfolio-camila/blob/main/docs/video-curr.gif"/>
 </p>
