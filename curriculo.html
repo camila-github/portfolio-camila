@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desenvolvedor Front-End." />
+    <meta name="keywords" content="sites, web, desenvolvimento, programador, camila-github, front-end, website"/>
+    <link rel="shortcut icon" href="assets/img/curr-logo-meteor-shortcut-icon.svg" type="image/x-icon"/>
+
+    <!-- CSS - Carousel - Slideshow-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/plugins/headline.css">
+    <link rel="stylesheet" href="assets/css/curr-style.css">
+    <link rel="stylesheet" href="assets/css/curr-responsive.css">
+
+    <title>Camila Augusta - Portfolio</title>
+</head>
+
+<body >   
+    <header>
+        <!-- NAV ICONS - START -->
+        <nav>
+            <div class="container inner">
+                <div class="logo">
+                        <img src="assets/img/curr-logo-meteor.svg" 
+                            height="30px" 
+                            width="40px" 
+                            alt="Logo meteoro"
+                        >
+                        <a href="https://github.com/camila-github" 
+                            target="_blank" 
+                            rel="noopener"
+                            >camila-github
+                        </a>
+                </div>   
+                
+                <p class="cd-headline loading-bar" id="navicons"></p>
+            </div>
+        </nav> <!-- NAV ICONS - END-->
+
+        <!-- BACK INDEX - START -->
+        <div class="back">
+            <a href="index.html">
+                <img src="assets/img/curr-btn-back.webp" alt="Voltar">
+            </a>
+        </div><!-- BACK INDEX - END -->
+
+        <!-- BACK UP - SCROLL TOP - START-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <img class="scrolltop__icon" 
+                src="assets/img/curr-icons-bx-chevron-up.svg" 
+                alt="Icone seta up"
+            >
+        </a><!-- BACK UP - SCROLL TOP - END-->
+    </header>  
+
+    <main class="container">
+
+        <!-- PROFILE - START -->
+        <section class="profile" id="profile__ripple">
+            
+            <div class="left">
+                <div class="avatar__block">
+                    <img src="assets/img/curr-user.webp" alt="Perfil" >
+                    <span>
+                        <img src="assets/img/curr-icons-dots.svg" alt="Icone dots">
+                    </span>
+                </div>
+                
+                <div>
+                    <h2>Camila Augusta dos Santos</h2>                    
+                    <p class="cd-headline loading-bar" id="profile__text"></p>
+                </div>
+            </div>
+            
+            <div class="right">
+                <ul class="contact">
+                    <li>                    
+                        <a class="link"
+                            href="https://github.com/camila-github" 
+                            data-tippy-content="camila-github"                        
+                            target="_blank" rel="noopener"
+                            >
+                                <img src="assets/img/curr-icons-github.svg" alt="Icone Github">
+                        </a>                       
+                
+                    
+                    <li> 
+                        <a class="link" 
+                            href="" 
+                            data-tippy-content="camilaugusta@hotmail.com"
+                            >
+                                <img src="assets/img/curr-icons-email.svg" alt="">
+                        </a>
+                    </li>                 
+                </ul>                
+            </div>
+        </section> <!-- PROFILE - END -->
+        
+        <!-- ABOUT - START -->
+        <section class="about">
+            <h1 class="section__heading">Olá, eu sou</h1>
+            <div class="content">
+                
+                <div class="left">
+                    <h2>Camila Augusta dos Santos</h2>
+                    <p>Desenvolvedora Front-End Web.<br></p>
+                    <p>
+                        Recente mudei de carreira para aprender a programar. Nos últimos 14 anos, 
+                        trabalhei como analista de suporte a sistemas ERP, com uso de tecnologias como SAP, 
+                        Mastersaf, Totvs. <br> Com a mudança de carreira, estou focando diariamente meus 
+                        estudos em tecnologias como Javascript, ReactJS, Angular, TailwindCSS, NodeJS, Docker
+                        e com uso de conceitos de codigo limpo e padrões de projeto.<br><br> 
+                    </p>
+
+                    <p>  
+                        Busco sempre atualizar-me as novas tecnologias do mercado, praticando e 
+                        publicando projetos em meu Github.<br><br>                        
+                        É uma nova fase que há muito que aprender e codar...<br><br>
+                    </p>
+
+                    <p>
+                        No momento estou buscando uma posição na area de Desenvolvimento FrontEnd Web. 
+                        Se precisa de um Dev, entra em contato comigo, gostaria muito de fazer 
+                        parte da sua equipe. 
+                    </p>
+                </div>
+                
+                <div class="right">
+                    <p>
+                        <span>Nome</span>
+                        <span>Camila Augusta dos Santos</span>
+                    </p>
+                    
+                    <p>
+                        <span>Email</span>
+                        <span>camilaugusta@hotmail.com</span>
+                    </p>
+                    
+                    <p>
+                        <span>Github</span>
+                        <span>github.com/camila-github</span>
+                    </p>
+                </div>
+            </div>
+        </section>  <!-- ABOUT - END -->
+        
+        <!-- SKILLS - START -->
+        <section class="skills">
+            <h2 class="section__heading">Educação & Skills</h2>
+            <div class="content">
+                
+                <div class="left">
+                    <div class="inner__left">
+                        <div class="heading">                        
+                            <img src="assets/img/curr-icons-graduation.svg" alt="">
+                            <h5>Cursos Complementares</h5>
+                        </div>
+                        <div class="timeline__wrapper" id="cursos__list">
+                        </div>
+                    </div>
+                    
+                    <div class="inner__right">
+                        <div class="heading">
+                            <img src="assets/img/curr-icons-graduation.svg" alt="">
+                            <h5>Formação</h5>
+                        </div>
+                        <div class="timeline__wrapper" id="formacao__list">
+                        </div>
+                        
+                        <div class="heading">
+                            <img src="assets/img/curr-icons-suitcase-alt.svg" alt="">
+                            <h5>Experiência</h5>
+                        </div>
+                        <div class="timeline__wrapper" id="experiencia__list">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right">                  
+                    <div class="skills__wrapper" > 
+                        
+                        <div class="skill-box">
+                            <h4>HTML</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="58" class="progress__bar">
+                                    <span class="tooltip">58%</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box">
+                            <h4>CSS3 / SASS</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="42" class="progress__bar">
+                                    <span class="tooltip">42%</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="skill-box">
+                            <h4>TAILWIND CSS</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="42" class="progress__bar">
+                                    <span class="tooltip">40%</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box">
+                            <h4>JAVASCRIPT</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="65" class="progress__bar">
+                                    <span class="tooltip">65%</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box">
+                            <h4>WEB DESIGN</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="60" class="progress__bar">
+                                    <span class="tooltip">60%</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box">
+                            <h4>REACTJS</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="45" class="progress__bar">
+                                    <span class="tooltip">45%</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box">
+                            <h4>ANGULAR</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="45" class="progress__bar">
+                                    <span class="tooltip">45%</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box">
+                            <h4>NODEJS</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="40" class="progress__bar">
+                                    <span class="tooltip">40%</span>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-box">
+                            <h4>DOCKER</h4>
+                            <div class="progress__wrap">
+                                <span data-percent="40" class="progress__bar">
+                                    <span class="tooltip">40%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- SKILLS - END --> 
+        
+        <!-- WORK - START -->
+        <section class="work">
+            <h2 class="section__heading">Ultimos Projetos</h2>            
+                
+                <div class="swiper mySwiper" >
+                    <div class="swiper-wrapper" id="swiper_id"></div>                    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+        </section> <!-- WORK - END -->
+        
+        
+    </main>
+    
+    <footer class="container">
+        <!-- TOOLS DEV - START -->
+        <section class="tools__dev">
+            <div class="brands__wrapper">
+                <img src="assets/img/curr-nodejs.svg"  class="color-svg" width="100px" alt="">
+                <img src="assets/img/curr-javascript.svg" width="60px" alt="">
+                <img src="assets/img/curr-angular.svg" width="60px" alt="">
+                <img src="assets/img/curr-docker.svg" width="60px" alt="">
+                <img src="assets/img/curr-css3.svg" width="55px" alt="">
+                <img src="assets/img/curr-sass.svg" width="70px" alt="">
+                <img src="assets/img/curr-react.svg" width="70px" alt="">
+                <img src="assets/img/curr-tailwindcss.svg" width="70px" alt="">
+            </div>
+        </section> <!-- TOOLS DEV - END -->
+
+        <section>
+            <span>© 2021 -  
+                <a href="https://github.com/camila-github" target="_blank" rel="noopener"> 
+                    Camila Augusta
+                </a>
+            </span>
+        </section>
+        
+    </footer>
+    
+    <!-- SCRIPTS -->    
+    <!-- Animação Tippy -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+    <!-- Animação - Mostra os elementos à medida que eles rolam para a visualização -->
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    
+
+    <!--Animação - Titulo - Nav - Profile -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/headline.js"></script>
+    
+    <!-- Script - Carousel - Slideshow-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!--DB Scripts-->
+    <script src="assets/js/curr-icons-profile.js"></script>
+    <script src="assets/js/curr-skills.js"></script>
+    <script src="assets/js/curr-works.js"></script>
+    
+    <!--JS principal-->
+    <script src="assets/js/curr-script.js"></script>
+    
+</body>
+
+</html>
