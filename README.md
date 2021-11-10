@@ -29,9 +29,13 @@
 
 ### Demostração do site
 
+Pagina index
+
 <p align="center">
    <img src="https://github.com/camila-github/portfolio-camila/blob/main/docs/video-index.gif"/>
 </p>
+
+Pagina portfolio
 
 <p align="center">
    <img src="https://github.com/camila-github/portfolio-camila/blob/main/docs/video-curr.gif"/>
