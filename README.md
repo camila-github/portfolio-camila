@@ -14,7 +14,7 @@
  </h1>
 
 ### Site
-[Portfolio - Link](https://camila-github.github.io/portfolio-camila/)
+[Portfolio - Clique aqui para acessar o site](https://camila-github.github.io/portfolio-camila/)
 
 ### Tecnologias utilizadas no portfolio
 
