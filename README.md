@@ -5,8 +5,6 @@
 
  Quer saber mais sobre mim ??, clique no link abaixo, para acessar meu portfólio. Logo abaixo tem uma demostração do site, e tecnologias utilizadas.
  
- Teve alguma ideia, em que um dos meus pojetos ajudou ?? Contribua? Deixe uma estrela no projeto ou realize um fork.
- 
  Precisa de um Dev FrontEnd ??, entre em contato.
 
  </h4>
