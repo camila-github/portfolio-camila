@@ -2,7 +2,7 @@ const DBWORKS = [
     {
         name: 'work1',
         text: "Criação de site utilizando React + Tailwind CSS",
-        img: "https://github.com/camila-github/projeto-react-tailwind-css/blob/main/docs/video-desk-.webp",
+        img: "assets/img/curr-work-tailwindcss-react.webp",
         linkRepo: "https://github.com/camila-github/projeto-react-tailwind-css"
     },
     {
