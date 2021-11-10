@@ -1,14 +1,13 @@
 ## Portfólio - Camila Augusta dos Santos.
 
 <h3>
- Olá, Obrigada pela visita !!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/> 
+ Olá, Obrigada pela visita !!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>  
 
- 
- Precisa de um Dev FrontEnd ??, entre em contato.
-
- Quer saber mais sobre mim ??, clique no link abaixo, para acessar meu portfólio.
+ Quer saber mais sobre mim ??, clique no link abaixo, para acessar meu portfólio. Logo abaixo tem uma demostração do site, e tecnologias utilizadas.
  
  Teve alguma ideia, em que um dos meus pojetos ajudou ?? Contribua? Deixe uma estrela no projeto ou realize um fork.
+ 
+ Precisa de um Dev FrontEnd ??, entre em contato.
 
  </h3>
  <h1>
