@@ -13,7 +13,7 @@
  </h1>
 
 ### Site
-![Portfolio - Link](https://camila-github.github.io/portfolio-camila/)
+[Portfolio - Link](https://camila-github.github.io/portfolio-camila/)
 
 ### Tecnologias utilizadas
 
