@@ -3,9 +3,12 @@
 <h3>
  Olá, Obrigada pela visita !!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/> 
 
- Precisa de um Dev FrontEnd, entre em contato.
+ 
+ Precisa de um Dev FrontEnd ??, entre em contato.
 
- Quer saber mais sobre mim, clique no link abaixo, para acessar meu portfólio.
+ Quer saber mais sobre mim ??, clique no link abaixo, para acessar meu portfólio.
+ 
+ Teve alguma ideia, em que um dos meus pojetos ajudou ?? Contribua? Deixe uma estrela no projeto ou realize um fork.
 
  </h3>
  <h1>
