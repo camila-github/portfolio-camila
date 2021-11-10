@@ -1,7 +1,7 @@
 ## Portfólio - Camila Augusta dos Santos.
 
 <h4>
- Olá, Obrigada pela visita !!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>  
+ Olá, Obrigada pela visita !!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/><br>  
 
  Quer saber mais sobre mim ??, clique no link abaixo, para acessar meu portfólio. Logo abaixo tem uma demostração do site, e tecnologias utilizadas.
  
