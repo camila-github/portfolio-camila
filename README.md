@@ -15,7 +15,7 @@
 ### Site
 [Portfolio - Link](https://camila-github.github.io/portfolio-camila/)
 
-### Tecnologias utilizadas
+### Tecnologias utilizadas no portfolio
 
 - HTML 
 - CSS3
