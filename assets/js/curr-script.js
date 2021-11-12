@@ -151,8 +151,45 @@ const skillsProgressBar = () => {
 
 /***** WORKS - CARROSSEL *****/
 const listWorks = DBWORKS;
-const workSwipeer = () => {
-    const workContainer = document.getElementById('swiper_id')     
+const workCarousel = () => {
+    const workContainer = document.getElementById('swiper_id')       
+    const listWorksfirst = listWorks.shift();
+
+    let img =  listWorksfirst.img;
+    let text = listWorksfirst.text;
+    let linkRepo = listWorksfirst.linkRepo;  
+    let linkSite = listWorksfirst.linkSite;  
+    let linkSiteRepo = "Clique para visualizar" ;
+        
+    if(!linkSite) {
+        linkSiteAux = "--";
+    }else{
+        linkSiteAux = "Clique para visualizar";
+    }
+
+    const carouselItemActive = document.createElement('div');
+    carouselItemActive.classList.add('carousel-item');
+    carouselItemActive.classList.add('active');
+
+    carouselItemActive.innerHTML = ` 
+        <div class="projects-wrap">
+            <img src='${img}' alt='Video Github'>
+            <div class="projects-info">
+                <p>${text}
+                    <br><br>
+                    <a href='${linkRepo}' target='_blank' rel='noopener'>
+                        Repositorio (${linkSiteRepo}) 
+                    </a>
+                    <br><br>
+                    <a href='${linkSite}' target='_blank' rel='noopener'>
+                        Site (${linkSiteAux})
+                    </a>
+                </p>                 
+            </div>
+        </div>
+    `
+    workContainer.appendChild(carouselItemActive); 
+
     
     listWorks.forEach((item) => {
         let img =  item.img;
@@ -167,33 +204,28 @@ const workSwipeer = () => {
             linkSiteAux = "Clique para visualizar";
         }
         
-        const workSwiper = document.createElement('div')
-        workSwiper.classList.add('swiper-slide')
+        const carouselItem = document.createElement('div')
+        carouselItem.classList.add('carousel-item')
         
-        workSwiper.innerHTML = `   
-            <div class='work__img'>  
-                <img src='${img}' alt='Video Github'>
-                
+        carouselItem.innerHTML = ` 
+        <div class="projects-wrap">   
+            <img src='${img}' alt='Video Github'>        
+            <div class="projects-info">
                 <p>${text}
                     <br><br>
                     <a href='${linkRepo}' target='_blank' rel='noopener'>
                         Repositorio (${linkSiteRepo}) 
-                    </a><br><br >
+                    </a>
+                    <br><br>
                     <a href='${linkSite}' target='_blank' rel='noopener'>
                         Site (${linkSiteAux})
                     </a>
-                </p>  
-            </div>                  
+                </p>                 
+            </div>
+        </div>                
         `
-        workContainer.appendChild(workSwiper);        
-    });
-
-    new Swiper('.mySwiper', {
-        navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        },
-    }); 
+        workContainer.appendChild(carouselItem);        
+    });  
 }
 
 /***** MOSTRA SCROLL-TOP *****/ 
@@ -207,35 +239,33 @@ const scrollTop = () =>{
 
 window.addEventListener('scroll', scrollTop)
 
-
 /***** INICIO *****/
-window.onload = () => {
-    //Iniciar tooltips
+window.onload = () => {   
+    iconsNav();    
+    textProfile();
+    cursos();
+    formacao();
+    experiencia();
+    skillsProgressBar();
+    workCarousel(); 
+
+
+    // Iniciar tooltips
     tippy('.link', {       
         placement: 'bottom',
         theme: 'light-border',
-    });
+    }); 
 
+    // Animação scroll
     const sr = ScrollReveal({
         origin: 'top',
         distance: '50px',
         duration: 2000,
         loop: false,
     });
-    
-    iconsNav();    
-    textProfile();
-    
+
     sr.reveal('.about', { delay: 200 });
-    
-    cursos();
-    formacao();
-    experiencia();
-    skillsProgressBar();
-    sr.reveal('.skills', { delay: 200 });
-    
-    workSwipeer();
-    sr.reveal('.work', { delay: 300 }); 
-    
-    sr.reveal('footer', { delay: 400 });    
+    sr.reveal('.skills', { delay: 300 });
+    sr.reveal('.work', { delay: 400 });     
+    sr.reveal('footer', { delay: 500 });  
 };

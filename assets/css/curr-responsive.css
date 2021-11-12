@@ -54,6 +54,11 @@
         padding: 1rem;
         margin-bottom: 2rem;
     }
+
+    .work .projects-wrap {
+        max-width: 100%;
+        min-height: 35rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -67,6 +72,10 @@
     
     .skills .content .left {
         display: block;
+    }
+    
+    .work .projects-wrap {
+        max-height: 30rem;
     }
 }
 
@@ -85,8 +94,20 @@
         flex-direction: column;
         align-self: center;
     }  
-}
 
+    main {
+        margin-top: 15%;
+    }
+
+    .work .projects-wrap .projects-info p {
+        min-height: 325px;
+    }
+
+    .work .projects-wrap .projects-info {
+        padding: 8px;
+        height: 360px;
+    }
+}
 
 @media (max-width: 375px) {
     .skills .skills__wrapper .skill-box .progress__wrap .progress__bar .tooltip {
@@ -94,9 +115,9 @@
     }
     
     .container {
-        min-width: auto;
+        min-width: auto;   
     }
-    
+
     nav {
         min-width: 28rem;
     }

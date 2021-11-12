@@ -7,7 +7,6 @@
     const body = document.querySelector('body');
     const profile = document.getElementById('profile');
 
-
     toggle.addEventListener('click', () => {
 
         if (body.classList.contains('text-gray-900')) {
@@ -32,11 +31,10 @@
             profile.classList.add('bg-white');				
         }
     });		
-
 })();
 
 
-/*Animacao*/
+/*Animacao scroll*/
 const sr = ScrollReveal({ origin: 'top', duration: 2000 });
 sr.reveal(`#profile`, { delay: 200 });
 sr.reveal(`#foto`, { delay: 300 });
