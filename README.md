@@ -3,9 +3,9 @@
 <h4>
  Olá, Obrigada pela visita !!  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>
  
-No link abaixo, dá acesso ao meu meu portfólio e meu curriculo, lá conto um pouco da minha vivência com TI. Logo em seguida tem uma demostração e tecnologias utilizadas no site.
+No link abaixo, dá acesso ao meu curriculo, lá conto um pouco da minha vivência com Tecnologia. Logo em seguida tem uma demostração e tecnologias utilizadas no site.
 
-Se precisa de um Dev FrontEnd ??, entre em contato.
+Caso precise de um Dev FrontEnd ??, entre em contato.
  
  </h4>
  <h1>
@@ -37,5 +37,5 @@ Pagina index
 Pagina curriculo-portfolio
 
 <p align="center">
-   <img src="https://github.com/camila-github/portfolio-camila/blob/main/docs/video-curr-.gif"/>
+   <img src="https://github.com/camila-github/portfolio-camila/blob/main/docs/video-curr.gif"/>
 </p>

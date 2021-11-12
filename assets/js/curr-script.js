@@ -266,6 +266,5 @@ window.onload = () => {
 
     sr.reveal('.about', { delay: 200 });
     sr.reveal('.skills', { delay: 300 });
-    sr.reveal('.work', { delay: 400 });     
-    sr.reveal('footer', { delay: 500 });  
+    sr.reveal('.work', 'footer', { delay: 400 });     
 };
